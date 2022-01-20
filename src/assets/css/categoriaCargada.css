@@ -1,0 +1,40 @@
+.categoriaCargada {
+    display: inline-block;
+    vertical-align: top;
+    width: 79vw;
+    padding: 28px 45px;
+    border-left: 1px solid var(--grisClaro);
+    margin-top: 74px;
+}
+
+.titulo_categoria{
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.titulo_lecciones{
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.linea_lecciones{
+    background-color: var(--grisMedio);
+    margin: 8px 0;
+    border: 0;
+    height: 1px;
+}
+
+.currantes{
+    color: var(--negro);
+    margin-top: 20px;
+}
+
+@media (max-width: 992px) {
+
+    .categoriaCargada {
+        margin-top: 0;
+        width: 100vw;
+        text-align: center;
+    }
+
+}

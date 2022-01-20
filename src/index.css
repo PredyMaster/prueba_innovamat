@@ -1,0 +1,33 @@
+:root {
+  --turquesaInnovamat: #18C6AC;
+  --verdeOscuro: #02524C;
+  --grisOscuro: #99ABA9;
+  --grisMedio: #C5D6D5;
+  --grisClaro: #EDEDED;
+  --negro: #192F2D;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Roboto', 'Oxygen', 'Helvetica Neue', 'Arial',sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

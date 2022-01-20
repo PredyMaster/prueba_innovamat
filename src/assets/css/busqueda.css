@@ -1,0 +1,34 @@
+.resultadoBusqueda{
+    width: 79vw;
+    display: inline-block;
+    vertical-align: top;
+    padding: 27px 45px;
+    border-left: 1px solid var(--grisClaro);
+    margin-top: 74px;
+}
+
+.titulo_busqueda{
+    color: var(--negro);
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.linea_busqueda{ 
+    background-color: var(--grisMedio);
+    margin: 8px 0;
+    border: 0;
+    height: 1px;
+}
+
+@media (max-width: 992px) {
+
+    .resultadoBusqueda {
+        margin-top: 0;
+    }
+
+    .resultadoBusqueda {
+        width: 100vw;
+        text-align: center;
+    }
+
+}
